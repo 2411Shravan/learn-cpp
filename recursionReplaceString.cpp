@@ -20,6 +20,6 @@ void replaceStr(string nm){
 }
 
 int main(){
-    string name="pipippppipipipipi";
+    string name="pipippppipipipii";
     replaceStr(name);
 }
