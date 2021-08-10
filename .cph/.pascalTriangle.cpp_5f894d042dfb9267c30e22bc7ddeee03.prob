@@ -1,0 +1,1 @@
+{"name":"Local: pascalTriangle","url":"c:\\Users\\Shravan\\Desktop\\desk\\c++\\learn-cpp\\pascalTriangle.cpp","tests":[{"id":1628580752370,"input":"5","output":"Enter the row :\n1\n1 1\n1 2 1\n1 3 3 1\n1 4 6 4 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Shravan\\Desktop\\desk\\c++\\learn-cpp\\pascalTriangle.cpp","group":"local","local":true}
