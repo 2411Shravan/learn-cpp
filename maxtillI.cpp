@@ -17,11 +17,12 @@ int main(){
         }
     int c=1;
     for(int i=0;i<a;i++){
-        cout<<"comparing the "<<mx<<" and "<<ar[i]<<" th element"<<endl;
+        cout<<"comparing "<<mx<<" and "<<ar[i]<<endl;
         mx=max(mx,ar[i]);
+        cout<<mx<<endl;
     }
 
 
-    cout<<mx<<endl;
+   
     
 }

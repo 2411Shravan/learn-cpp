@@ -63,7 +63,7 @@ void main()
 int del[6][2],row,clmn,msc;
 float matin[6][5],matinn[6][5],matout[6][5],scal;
 char chc;
-cout<<setw(20)<<"Eazy Maths"<<endl<<setw(20)<<"Unit:Matrices"<<endl<<setw(60)<<"DEVELOPERS:S&S pvt.ltd."<<setprecision(2)<<endl;
+cout<<setw(20)<<"Eazy Maths"<<endl;setw(20)<<"Unit:Matrices"<<endl<<setw(60)<<"DEVELOPERS:S&S pvt.ltd."<<setprecision(2)<<endl;
 Re:clrscr();
    cout<<"Enter a matrix to workout with!"<<endl<<endl;
    Receive(matin,matinn,'B');
