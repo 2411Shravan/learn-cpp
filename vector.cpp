@@ -20,5 +20,26 @@ int main(){
         cout<<v[i]<<endl;
     }
 
+    //traversing vector data in cpp 2nd way
+
+    vector<int>::iterator it;
+
+    for(it=v.begin();it!=v.end();it++){
+        cout<<*it<<endl;
+    }
+
+    for(auto element:v){
+        cout<<element<<endl;
+    }
+
+    //popping element in vector
+
+    v.pop_back();
+    v.pop_back();
+
+    for(int i=0;i<v.size();i++){
+        cout<<v[i]<<endl;
+    }
+
     return 0;
 }
