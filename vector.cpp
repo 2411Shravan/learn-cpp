@@ -1,5 +1,7 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
+
 
 using namespace std;
 
@@ -40,6 +42,27 @@ int main(){
     for(int i=0;i<v.size();i++){
         cout<<v[i]<<endl;
     }
+
+    v.push_back(4);
+    v.push_back(5);
+
+    for(int i=0;i<v.size();i++){
+        cout<<v[i]<<endl;
+    }
+
+    vector<int> avg(3,65);
+
+    for(int i=0;i<avg.size();i++){
+        cout<<avg[i]<<endl;
+    }
+
+
+    swap(v,avg);
+
+    for(int i=0;i<v.size();i++){
+        cout<<v[i]<<endl;
+    }
+    
 
     return 0;
 }
