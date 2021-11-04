@@ -32,6 +32,19 @@ void delete_node(){
     head=ptr;
 }
 
+void insertingivenposition(int position, int value){
+    struct Node* ptr;
+    ptr=head;
+    for(int i=0;i<position;i++){
+        ptr=ptr->next;
+    }
+    struct Node* temp;
+    temp=(struct Node*)malloc(sizeof(struct Node));
+    temp->data=value;
+    temp->next=ptr->next;
+    ptr=temp;
+}
+
 int main(){
 
    insert(3);
@@ -43,7 +56,8 @@ int main(){
    display();
    delete_node();
    display();
+   insertingivenposition(3,21);
 
    return 0;
-   
+
 }
